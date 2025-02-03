@@ -748,7 +748,7 @@ section,
 
 .section-title {
   text-align: center;
-  padding-bottom: 60px;
+  padding-bottom: 20px;
   position: relative;
 }
 p.product-info {
@@ -773,14 +773,14 @@ span.product-point {
   position: relative;
 }
 
-.section-title h2:before,
+/* .section-title h2:before,
 .section-title h2:after {
   content: "";
   width: 50px;
   height: 2px;
   background: var(--accent-color);
   display: inline-block;
-}
+} */
 
 .section-title h2:before {
   margin: 0 15px 10px 0;
@@ -1596,14 +1596,6 @@ span.product-point {
   position: relative;
 }
 
-.member-info span:after, .member-info span:before{
-  content: "";
-  width: 50px;
-  margin:0px 5px 4px 5px;
-  height: 2px;
-  background: var(--accent-color);
-  display: inline-block;
-}
 .team .member .member-img {
   margin: 0 80px;
   height: 195px;
@@ -1616,7 +1608,10 @@ span.product-point {
 
 @media (max-width: 1024px) {
   .team .member .member-img {
-    margin: 0 60px;
+    margin: 0 30px;
+    justify-self: center;
+    height: 150px ;
+    overflow: hidden;
   }
 }
 
@@ -3176,4 +3171,22 @@ button.log-btn.signin-btn {
   display: flow !important;
   padding: 1.5%;
   width: 129px !important;
+}
+img.img-fluid.team-img {
+  height: 125px;
+  width: 125px;
+  border-radius: 50%;
+}
+.swiper-slide.team-info {
+  text-align-last: center;
+}
+p.team-name {
+  font-weight: 600;
+  font-size: 16;
+  margin: 10px 0px 5px 0px;
+}
+p.team-post {
+  font-size: 13px;
+    font-weight: 700;
+    color: #535151;
 }
