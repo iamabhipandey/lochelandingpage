@@ -1163,7 +1163,7 @@ span.product-point {
 }
 
 .features .features-item+.features-item {
-  margin-top: 100px;
+  margin-top: 60px;
 }
 
 @media (max-width: 768px) {
