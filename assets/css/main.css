@@ -99,17 +99,19 @@ section#portfolio {
 
 }
 
-
+.sliderfirst {
+    position: relative;
+}
 .carousel-item img {
   object-fit: cover;
-  height: 100vh;
+    margin-top: 86px  !important;
   width: 100%;
   filter: brightness(0.6);
 }
 
 .overlay-content {
   position: absolute;
-  top: 85%;
+  top: 75%;
   width: 100%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -127,7 +129,11 @@ section#portfolio {
   font-style: italic;
   color: #ffffff;
 }
-
+.btn-group-custom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 .btn-group-custom .btn {
   margin: 3px;
   background-color: #e45e03;
@@ -138,11 +144,11 @@ section#portfolio {
   font-weight: 500;
 }
 
-@media only screen and (max-width: 1024px) {
-  .overlay-content {
-    top: 75%;
-  }
 
+@media only screen and (max-width: 1024px) {
+  .overlay-content h1 {
+    font-size: 25px;
+  }
   .btn-group-custom .btn {
     margin: 3px;
     background-color: #e45e03;
@@ -154,13 +160,13 @@ section#portfolio {
   }
 }
 
-@media only screen and (max-width: 992px) {
-  .overlay-content h1 {
-    font-size: 2rem;
-    color: white;
-    font-weight: bold;
-  }
-
+@media only screen and (max-width: 676px) {
+.btn-group-custom {
+  display: none;
+}
+.overlay-content h1 {
+    font-size: 20px;
+  }  
 }
 
 .carousel-inner::after {
