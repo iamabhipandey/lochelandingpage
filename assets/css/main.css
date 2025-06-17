@@ -110,7 +110,7 @@ section#portfolio {
 
 .overlay-content {
   position: absolute;
-  top: 75%;
+  top: 69%;
   width: 100%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -165,7 +165,7 @@ section#portfolio {
   display: none;
 }
 .overlay-content {
-    top: 70%;
+    top: 65%;
 }
 .overlay-content h1 {
     font-size: 20px;
