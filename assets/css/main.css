@@ -104,7 +104,6 @@ section#portfolio {
 }
 .carousel-item img {
   object-fit: cover;
-    margin-top: 86px  !important;
   width: 100%;
   filter: brightness(0.6);
 }
@@ -158,11 +157,15 @@ section#portfolio {
     padding: 7px 10px;
     font-weight: 500;
   }
+
 }
 
 @media only screen and (max-width: 676px) {
 .btn-group-custom {
   display: none;
+}
+.overlay-content {
+    top: 70%;
 }
 .overlay-content h1 {
     font-size: 20px;
