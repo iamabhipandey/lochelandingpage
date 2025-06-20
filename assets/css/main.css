@@ -123,7 +123,7 @@ section#portfolio {
 
 .overlay-content {
   position: absolute;
-  top: 69%;
+  top: 80%;
   width: 100%; 
   left: 50%;
   transform: translate(-50%, -50%);
