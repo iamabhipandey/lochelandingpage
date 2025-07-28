@@ -1882,6 +1882,7 @@ span.product-point {
 .team .member .member-img {
   margin: 0 80px;
   height: 195px;
+  width:195px;
   border-radius: 50%;
   overflow: hidden;
   position: relative;
@@ -1894,6 +1895,7 @@ span.product-point {
     margin: 0 30px;
     justify-self: center;
     height: 150px;
+    width:150px;
     overflow: hidden;
   }
 }
